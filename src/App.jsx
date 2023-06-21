@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
-import Menu from "./components/Menu";
+import About from "./components/About";
 import News from "./components/News";
 import Footer from "./components/Footer";
 import "./App.css";
@@ -18,8 +18,8 @@ function App() {
             element={<Home />}
           />
           <Route
-            path="/menu"
-            element={<Menu />}
+            path="/about-cafa"
+            element={<About />}
           />
 
           <Route

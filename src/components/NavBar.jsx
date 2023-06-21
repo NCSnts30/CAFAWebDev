@@ -46,7 +46,7 @@ function NavBar() {
           </div>
         </div>
         <NavLink
-          to="/menu"
+          to="/about-cafa"
           className="ml-10 text-xl hover:text-red-700">
           About CAFA
         </NavLink>
