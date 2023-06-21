@@ -98,6 +98,8 @@ function NavBar() {
               </svg>
             </button>
           </div>
+
+          {/* @Henry, dito mo i work yung hamburger menu, nasa CSS file na yung need mo */}
           <div className="container">
             <div className="overflow-y-auto max-h-screen-2/3">
               <p>
