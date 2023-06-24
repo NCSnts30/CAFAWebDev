@@ -151,9 +151,15 @@ function NavBar() {
               {activeItem === 1 && (
                 <div className="mb-5 pl-4 mt-2 border-l-4 border-gray-300">
                   <ul>
-                    <li className="mb-4">Subitem 1</li>
-                    <li className="mb-4">Subitem 2</li>
-                    <li className="mb-4">Subitem 3</li>
+                    <a href="/">
+                      <li className="mb-4">Subitem 1</li>
+                    </a>
+                    <a href="/">
+                      <li className="mb-4">Subitem 1</li>
+                    </a>
+                    <a href="/">
+                      <li className="mb-4">Subitem 1</li>
+                    </a>
                   </ul>
                 </div>
               )}
@@ -182,9 +188,15 @@ function NavBar() {
               {activeItem === 2 && (
                 <div className="mb-5 pl-4 mt-2 border-l-4 border-gray-300">
                   <ul>
-                    <li className="mb-4">Subitem 1</li>
-                    <li className="mb-4">Subitem 2</li>
-                    <li className="mb-4">Subitem 3</li>
+                    <a href="/">
+                      <li className="mb-4">Subitem 1</li>
+                    </a>
+                    <a href="/">
+                      <li className="mb-4">Subitem 1</li>
+                    </a>
+                    <a href="/">
+                      <li className="mb-4">Subitem 1</li>
+                    </a>
                   </ul>
                 </div>
               )}
@@ -213,9 +225,15 @@ function NavBar() {
               {activeItem === 3 && (
                 <div className="mb-5 pl-4 mt-2 border-l-4 border-gray-300">
                   <ul>
-                    <li className="mb-4">Subitem 1</li>
-                    <li className="mb-4">Subitem 2</li>
-                    <li className="mb-4">Subitem 3</li>
+                    <a href="/">
+                      <li className="mb-4">Subitem 1</li>
+                    </a>
+                    <a href="/">
+                      <li className="mb-4">Subitem 1</li>
+                    </a>
+                    <a href="/">
+                      <li className="mb-4">Subitem 1</li>
+                    </a>
                   </ul>
                 </div>
               )}
@@ -244,9 +262,15 @@ function NavBar() {
               {activeItem === 4 && (
                 <div className="mb-5 pl-4 mt-2 border-l-4 border-gray-300">
                   <ul>
-                    <li className="mb-4">Subitem 1</li>
-                    <li className="mb-4">Subitem 2</li>
-                    <li className="mb-4">Subitem 3</li>
+                    <a href="/">
+                      <li className="mb-4">Subitem 1</li>
+                    </a>
+                    <a href="/">
+                      <li className="mb-4">Subitem 1</li>
+                    </a>
+                    <a href="/">
+                      <li className="mb-4">Subitem 1</li>
+                    </a>
                   </ul>
                 </div>
               )}
@@ -275,9 +299,15 @@ function NavBar() {
               {activeItem === 5 && (
                 <div className="mb-5 pl-4 mt-2 border-l-4 border-gray-300">
                   <ul>
-                    <li className="mb-4">Subitem 1</li>
-                    <li className="mb-4">Subitem 2</li>
-                    <li className="mb-4">Subitem 3</li>
+                    <a href="/">
+                      <li className="mb-4">Subitem 1</li>
+                    </a>
+                    <a href="/">
+                      <li className="mb-4">Subitem 1</li>
+                    </a>
+                    <a href="/">
+                      <li className="mb-4">Subitem 1</li>
+                    </a>
                   </ul>
                 </div>
               )}
@@ -312,9 +342,15 @@ function NavBar() {
                     overflow: "hidden",
                   }}>
                   <ul>
-                    <li className="mb-4">Subitem 1</li>
-                    <li className="mb-4">Subitem 2</li>
-                    <li className="mb-4">Subitem 3</li>
+                    <a href="/">
+                      <li className="mb-4">Subitem 1</li>
+                    </a>
+                    <a href="/">
+                      <li className="mb-4">Subitem 1</li>
+                    </a>
+                    <a href="/">
+                      <li className="mb-4">Subitem 1</li>
+                    </a>
                   </ul>
                 </div>
               )}
