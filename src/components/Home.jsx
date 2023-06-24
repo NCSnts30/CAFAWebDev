@@ -16,9 +16,6 @@ function App() {
       url: 'src/assets/3.png',
     },
     {
-      url: 'src/assets/4.png',
-    },
-    {
       url: 'src/assets/5.png',
     },
     {
