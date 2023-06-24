@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Modal from "./Modal";
-import "./news.css";
 
 const News = () => {
   const [toggle, setToggle] = useState(false);
@@ -48,7 +47,7 @@ const News = () => {
               alt="News"
               src="src/assets/6.png"
               onClick={() =>
-                popUp("Lorem Ipsum 3", "src/assets/6.png", "desciptions")
+                popUp("Lorem Ipsum 3", "src/assets/6.png", "Lorem Ipsum")
               }
             />
           </div>
@@ -58,7 +57,7 @@ const News = () => {
               alt="News"
               src="src/assets/5.png"
               onClick={() =>
-                popUp("Lorem Ipsum 2", "src/assets/5.png", "desciptions")
+                popUp("Lorem Ipsum 2", "src/assets/5.png", "Lorem Ipsum")
               }
             />
             <div className="text-wrapper-3">Lorem Ipsum</div>
@@ -83,7 +82,7 @@ const News = () => {
               alt="News"
               src="src/assets/7.png"
               onClick={() =>
-                popUp("Lorem Ipsum 1", "src/assets/7.png", "desciptions")
+                popUp("Lorem Ipsum 1", "src/assets/7.png", "Lorem Ipsum")
               }
             />
             <div className="text-wrapper-5">Lorem Ipsum</div>

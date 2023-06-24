@@ -225,8 +225,8 @@ function NavBar() {
               {activeItem === 3 && (
                 <div className="mb-5 pl-4 mt-2 border-l-4 border-gray-300">
                   <ul>
-                    <a href="/">
-                      <li className="mb-4">Subitem 1</li>
+                    <a href="/faculty">
+                      <li className="mb-4">Faculty</li>
                     </a>
                     <a href="/">
                       <li className="mb-4">Subitem 1</li>

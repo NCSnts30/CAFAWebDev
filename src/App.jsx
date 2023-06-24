@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import News from "./components/News";
 import Footer from "./components/Footer";
+import Faculty from "./components/Faculty";
 import "./App.css";
 
 function App() {
@@ -25,6 +26,11 @@ function App() {
           <Route
             path="/news"
             element={<News />}
+          />
+
+          <Route
+            path="/faculty"
+            element={<Faculty />}
           />
         </Routes>
       </div>
