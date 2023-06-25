@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 function Footer() {
   return (
@@ -7,7 +7,7 @@ function Footer() {
         TUP CAFA &copy; 2023 All rights reserved.
       </p>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

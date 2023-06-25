@@ -1,5 +1,5 @@
-import React from 'react';
-import faculty from '../assets/faculty.png';
+import React from 'react'
+import faculty from '../assets/faculty.png'
 
 function Faculty() {
   return (
@@ -271,7 +271,7 @@ function Faculty() {
       <br></br>
       <br></br>
     </>
-  );
+  )
 }
 
-export default Faculty;
+export default Faculty

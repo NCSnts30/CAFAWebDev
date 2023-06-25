@@ -1,6 +1,6 @@
-import 'react';
-import CAFA1 from '../assets/about.png';
-import CAFA2 from '../assets/about_2.png';
+import 'react'
+import CAFA1 from '../assets/about.png'
+import CAFA2 from '../assets/about_2.png'
 
 function Menu() {
   return (
@@ -77,7 +77,7 @@ function Menu() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Menu;
+export default Menu

@@ -1,15 +1,15 @@
-import { useState, useEffect, useRef } from 'react';
-import { NavLink } from 'react-router-dom';
-import logo from '../assets/cafaLogo.png';
+import { useState, useEffect, useRef } from 'react'
+import { NavLink } from 'react-router-dom'
+import logo from '../assets/cafaLogo.png'
 
 function NavBar() {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [activeItem, setActiveItem] = useState(null);
-  const sliderRef = useRef(null);
+  const [sidebarOpen, setSidebarOpen] = useState(false)
+  const [activeItem, setActiveItem] = useState(null)
+  const sliderRef = useRef(null)
 
   const handleSidebarToggle = () => {
-    setSidebarOpen(!sidebarOpen);
-  };
+    setSidebarOpen(!sidebarOpen)
+  }
 
   const handleClickOutside = (event) => {
     if (
@@ -17,20 +17,20 @@ function NavBar() {
       sliderRef.current &&
       !sliderRef.current.contains(event.target)
     ) {
-      setSidebarOpen(false);
+      setSidebarOpen(false)
     }
-  };
+  }
 
   useEffect(() => {
-    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('mousedown', handleClickOutside)
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
-  }, []);
+      document.removeEventListener('mousedown', handleClickOutside)
+    }
+  }, [])
 
   const handleItemClick = (item) => {
-    setActiveItem(activeItem === item ? null : item);
-  };
+    setActiveItem(activeItem === item ? null : item)
+  }
 
   return (
     <nav className="flex items-center justify-between p-10 bg-slate-300 font-bold text-slate-900">
@@ -253,7 +253,7 @@ function NavBar() {
               {activeItem === 4 && (
                 <div className="mb-5 pl-4 mt-2 border-l-4 border-gray-300">
                   <ul>
-                    <a href="/">
+                    <a href="/organization">
                       <li className="mb-4">Subitem 1</li>
                     </a>
                     <a href="/">
@@ -358,7 +358,7 @@ function NavBar() {
       </div>
       <div className={`ml-64 ${sidebarOpen ? 'opacity-50' : ''}`}></div>
     </nav>
-  );
+  )
 }
 
-export default NavBar;
+export default NavBar
