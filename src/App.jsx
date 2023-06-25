@@ -7,6 +7,7 @@ import News from './components/News'
 import Footer from './components/Footer'
 import Faculty from './components/Faculty'
 import Organization from './components/Organization'
+import Programs from './components/Programs'
 import './App.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/organization" element={<Organization />} />
           <Route path="/news" element={<News />} />
+          <Route path="/programs" element={<Programs />} />
           <Route path="/faculty" element={<Faculty />} />
         </Routes>
       </div>

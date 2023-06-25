@@ -62,6 +62,12 @@ function NavBar() {
         >
           Organizations
         </NavLink>
+        <NavLink to="/programs" className="ml-10 text-xl hover:text-red-700">
+          Programs
+        </NavLink>
+        <NavLink to="/programs" className="ml-10 text-xl hover:text-red-700">
+          Activities
+        </NavLink>
       </div>
       <div
         className={`ml-auto flex items-center relative ${
@@ -341,14 +347,11 @@ function NavBar() {
               {activeItem === 5 && (
                 <div className="mb-5 pl-4 mt-2 border-l-4 border-gray-300">
                   <ul>
-                    <a href="/">
-                      <li className="mb-4">Subitem 1</li>
+                    <a href="/programs">
+                      <li className="mb-4">Undergraduate Programs</li>
                     </a>
-                    <a href="/">
-                      <li className="mb-4">Subitem 1</li>
-                    </a>
-                    <a href="/">
-                      <li className="mb-4">Subitem 1</li>
+                    <a href="/programs">
+                      <li className="mb-4">Graduate Programs</li>
                     </a>
                   </ul>
                 </div>
