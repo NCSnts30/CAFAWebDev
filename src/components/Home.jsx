@@ -1,29 +1,17 @@
 import { useState } from 'react'
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
 import { RxDotFilled } from 'react-icons/rx'
+import pic1 from '../assets/pic1.png'
+import pic2 from '../assets/pic2.png'
+import pic3 from '../assets/pic3.png'
+import pic4 from '../assets/pic4.png'
 
 function App() {
-  //@Charlz, paki-change nalang yung mga photos
-
   const slides = [
-    {
-      url: 'src/assets/1.png',
-    },
-    {
-      url: 'src/assets/2.png',
-    },
-    {
-      url: 'src/assets/3.png',
-    },
-    {
-      url: 'src/assets/5.png',
-    },
-    {
-      url: 'src/assets/6.png',
-    },
-    {
-      url: 'src/assets/7.png',
-    },
+    { id: 1, src: pic1 },
+    { id: 2, src: pic2, title: 'item #2' },
+    { id: 3, src: pic3, title: 'item #3' },
+    { id: 4, src: pic4, title: 'item #4' },
   ]
 
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -47,7 +35,7 @@ function App() {
   return (
     <div className="max-w-[1920px] h-[1080px] w-full m-auto py-16 px-4 relative group">
       <div
-        style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
+        style={{ backgroundImage: `url(${slides[currentIndex].src})` }}
         className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
       ></div>
       {/* Left Arrow */}
