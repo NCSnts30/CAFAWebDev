@@ -1,3 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  font-family: Proxima Nova, system-ui, sans-serif;
+  scroll-behavior: smooth;
+}
+h1 {
+  font-family: 'JetBrains Mono', monospace;
+}
+.text-swal{
+  color:red;
+}
+
+
 body{
     margin:0;
     padding:0;
