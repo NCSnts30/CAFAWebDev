@@ -741,3 +741,7 @@ justify-content: left;
   margin-bottom: 50px;
   text-align: center;
 }
+
+.org-text {
+  font-size: 100px;
+}
