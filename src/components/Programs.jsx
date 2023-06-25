@@ -4,7 +4,7 @@ import logo from '../assets/cafaLogo.png'
 function Programs() {
   return (
     <div>
-      <div className="logo">
+      <div className="faculty">
         <div className="text-3xl text-white">PROGRAMS</div>
       </div>
       <div className="flex justify-center items-center py-8">
