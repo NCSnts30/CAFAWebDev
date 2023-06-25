@@ -65,7 +65,7 @@ function NavBar() {
         <NavLink to="/programs" className="ml-10 text-xl hover:text-red-700">
           Programs
         </NavLink>
-        <NavLink to="/programs" className="ml-10 text-xl hover:text-red-700">
+        <NavLink to="/activities" className="ml-10 text-xl hover:text-red-700">
           Activities
         </NavLink>
       </div>

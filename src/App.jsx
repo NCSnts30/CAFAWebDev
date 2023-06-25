@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import Faculty from './components/Faculty'
 import Organization from './components/Organization'
 import Programs from './components/Programs'
+import Activities from './components/Activities'
 import './App.css'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/news" element={<News />} />
           <Route path="/programs" element={<Programs />} />
           <Route path="/faculty" element={<Faculty />} />
+          <Route path="/activities" element={<Activities />} />
         </Routes>
       </div>
       <Footer />
