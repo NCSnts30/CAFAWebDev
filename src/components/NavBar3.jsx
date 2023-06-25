@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { NavLink } from 'react-router-dom'
 import logo from '../assets/cafaLogo.png'
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll'
 
 function NavBar() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
@@ -51,6 +52,15 @@ function NavBar() {
         </NavLink>
         <NavLink to="/news" className="ml-10 text-xl hover:text-red-700">
           News
+        </NavLink>
+        <NavLink to="/faculty" className="ml-10 text-xl hover:text-red-700">
+          Faculty
+        </NavLink>
+        <NavLink
+          to="/organization"
+          className="ml-10 text-xl hover:text-red-700"
+        >
+          Organizations
         </NavLink>
       </div>
       <div
@@ -207,15 +217,37 @@ function NavBar() {
               {activeItem === 3 && (
                 <div className="mb-5 pl-4 mt-2 border-l-4 border-gray-300">
                   <ul>
-                    <a href="/faculty">
-                      <li className="mb-4">Office of the Dean</li>
-                    </a>
-                    <a href="/faculty">
-                      <li className="mb-4">College Department Officials</li>
-                    </a>
-                    <a href="/faculty">
-                      <li className="mb-4">Faculty</li>
-                    </a>
+                    <li className="mb-4">
+                      <ScrollLink
+                        to="dean-section"
+                        smooth={true}
+                        duration={500}
+                        style={{ cursor: 'pointer' }}
+                        offset={-1000}
+                      >
+                        Office of the Dean
+                      </ScrollLink>
+                    </li>
+                    <li className="mb-4">
+                      <ScrollLink
+                        to="college-section"
+                        smooth={true}
+                        duration={500}
+                        style={{ cursor: 'pointer' }}
+                      >
+                        Dept. Officials
+                      </ScrollLink>
+                    </li>
+                    <li className="mb-4">
+                      <ScrollLink
+                        to="faculty-section"
+                        smooth={true}
+                        duration={500}
+                        style={{ cursor: 'pointer' }}
+                      >
+                        Faculty
+                      </ScrollLink>
+                    </li>
                   </ul>
                 </div>
               )}
@@ -247,15 +279,37 @@ function NavBar() {
               {activeItem === 4 && (
                 <div className="mb-5 pl-4 mt-2 border-l-4 border-gray-300">
                   <ul>
-                    <a href="/organization">
-                      <li className="mb-4">ASAP</li>
-                    </a>
-                    <a href="/organization">
-                      <li className="mb-4">THREADS</li>
-                    </a>
-                    <a href="/organization">
-                      <li className="mb-4">UAPSA - TUP</li>
-                    </a>
+                    <li className="mb-4">
+                      <ScrollLink
+                        to="asap-section"
+                        smooth={true}
+                        duration={500}
+                        style={{ cursor: 'pointer' }}
+                        offset={-1000}
+                      >
+                        ASAP
+                      </ScrollLink>
+                    </li>
+                    <li className="mb-4">
+                      <ScrollLink
+                        to="threads-section"
+                        smooth={true}
+                        duration={500}
+                        style={{ cursor: 'pointer' }}
+                      >
+                        THREADS
+                      </ScrollLink>
+                    </li>
+                    <li className="mb-4">
+                      <ScrollLink
+                        to="uapsa-tup-section"
+                        smooth={true}
+                        duration={500}
+                        style={{ cursor: 'pointer' }}
+                      >
+                        UAPSA - TUP
+                      </ScrollLink>
+                    </li>
                   </ul>
                 </div>
               )}

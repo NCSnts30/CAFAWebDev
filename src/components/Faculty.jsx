@@ -9,7 +9,7 @@ function Faculty() {
       </div>
       <div className="flex justify-center items-center py-8">
         <div className="flex justify-center items-center rounded-lg bg-red-300 p-1 mx-1">
-          <div className="text-center text-3xl font-bold">
+          <div className="text-center text-3xl font-bold" id="dean-section">
             OFFICE OF THE DEAN
           </div>
         </div>
@@ -35,7 +35,7 @@ function Faculty() {
       </div>
       <div className="flex justify-center items-center py-8">
         <div className="flex justify-center items-center rounded-lg bg-red-300 p-1 mx-1">
-          <div className="text-center text-3xl font-bold">
+          <div className="text-center text-3xl font-bold" id="college-section">
             COLLEGE DEPARTMENT OFFICIALS
           </div>
         </div>
@@ -137,7 +137,9 @@ function Faculty() {
       </div>
       <div className="flex justify-center items-center py-8">
         <div className="flex justify-center items-center rounded-lg bg-red-300 p-1 mx-1">
-          <div className="text-center text-3xl font-bold">FACULTY</div>
+          <div className="text-center text-3xl font-bold" id="faculty-section">
+            FACULTY
+          </div>
         </div>
       </div>
       <div className="flex justify-center bg-white">

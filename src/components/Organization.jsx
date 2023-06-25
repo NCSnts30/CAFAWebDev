@@ -17,6 +17,7 @@ function Organization() {
         <div className="relative w-full h-full rounded-l-lg">
           <div className="org-text">
             <div
+              id="asap-section"
               className="text-lg absolute top-0 right-0 bg-rose-400 text-white rounded-lg py-2 px-4 w-1/2 h-48 flex items-center justify-end"
               style={{ fontSize: '1.6rem', textAlign: 'right' }}
             >
@@ -46,6 +47,7 @@ function Organization() {
         <div className="relative w-full h-full rounded-l-lg">
           <div className="org-text">
             <div
+              id="threads-section"
               className="text-lg absolute top-0 left-0 bg-rose-400 text-white rounded-lg py-12 px-4 w-1/2 h-48 flex flex-col items-start justify-end"
               style={{ fontSize: '1.6rem', textAlign: 'left' }}
             >
@@ -75,6 +77,7 @@ function Organization() {
         <div className="relative w-full h-full rounded-l-lg">
           <div className="org-text">
             <div
+              id="uapsa-tup-section"
               className="text-lg absolute top-0 right-0 bg-rose-400 text-white rounded-lg py-2 px-4 w-1/2 h-48 flex items-center justify-end"
               style={{ fontSize: '1.6rem', textAlign: 'right' }}
             >
