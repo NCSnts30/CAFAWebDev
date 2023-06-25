@@ -392,13 +392,13 @@ function NavBar() {
                 >
                   <ul>
                     <a href="/">
-                      <li className="mb-4">Subitem 1</li>
+                      <li className="mb-4">Marliag</li>
                     </a>
                     <a href="/">
-                      <li className="mb-4">Subitem 1</li>
+                      <li className="mb-4">Linang</li>
                     </a>
                     <a href="/">
-                      <li className="mb-4">Subitem 1</li>
+                      <li className="mb-4">Dagyaw</li>
                     </a>
                   </ul>
                 </div>
